@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #2b2c2d;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        width: 350px;
+        padding: 20px;
+        background-color: #3a3b3c;
+        border-radius: 6px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      input[type="text"],
+      select {
+        width: 95%;
+        padding: 12px;
+        margin-bottom: 10px;
+        border: 2px solid #555555;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 14px;
+        background-color: #222222;
+        color: #ffffff;
+      }
+
+      input[type="submit"] {
+        width: 95%;
+        background-color: #bd1d1d;
+        color: #ffffff;
+        padding: 14px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #8b0f0f;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <input type="text" name="search" placeholder="Search on Reddit">
+        <select name="time">
+          <option value="a">All Time</option>
+          <option value="h">Last Hour</option>
+          <option value="d">Last Day</option>
+          <option value="w">Last Week</option>
+          <option value="m">Last Month</option>
+          <option value="y">Last Year</option>
+        </select>
+        <input type="submit" value="Search">
+      </form>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

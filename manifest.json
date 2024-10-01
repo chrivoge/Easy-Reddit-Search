@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Easy Reddit Search",
+  "description": "Quickly find relevant search results by only displaying content from Reddit in Google",
+  "version": "0.2.0",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
