@@ -1,4 +1,4 @@
-# easy_reddit_search
+# Easy Reddit Search
 
 Quickly find relevant search results by only displaying content from Reddit in Google.
 
